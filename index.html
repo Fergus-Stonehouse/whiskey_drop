@@ -46,7 +46,12 @@
 
         <!-- Quotes -->
         <section class="quotes">
-            <h2 class="text-uppercase">Quotes:</h2>
+          <div class="row">  <!--  the row class is a bootstrap class and must be added directly BEFORE the col-xx class or it will not work  -->
+              <div class="col-12 my-5">  <!--  the Y in MY-5 is referring to the y axis (top and bottom margins) and the 5 = 1.25rem or 20px and is the default -->
+                  <h2 class="text-uppercase">Quotes:</h2>
+                  <hr />
+              </div>
+          </div>
             <div class="quote">
                 <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
                 <p>- Jane Doe</p>
